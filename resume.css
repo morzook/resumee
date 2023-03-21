@@ -76,7 +76,7 @@ body{
 }
 
 h2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: inline-block;
     width: 90%;
 
@@ -87,10 +87,10 @@ h2{
 }
 
 .title{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     margin-top: -12px;
-    /* margin-left: -25px ; */
+     margin-left: 15px ; 
   /* text-align: center; */
   /* text-align: start; */
 

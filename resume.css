@@ -1,0 +1,222 @@
+body{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.project-container{
+    border: 1px solid black;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.top-side{
+    height: 20vh;
+    background-color: #00adef;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.contact-details, .name, .socials{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(253, 253, 253);
+}
+
+.details{
+    width: 90%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* align-items: center; */
+}
+
+#socials{
+    width: 38%;
+
+}
+
+#ddd{
+    width: 100%;
+
+}
+
+.contact-icons{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 23%;
+    margin-top: 3px;
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+h2{
+    display: inline-block;
+    /* width: 90%; */
+  /* font-size: 32px; */
+  transform: scale(1.4, 2);
+  text-align: center;
+}
+
+.title{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-top: -12px;
+    margin-left: -25px ;
+  /* text-align: center; */
+  /* text-align: start; */
+
+}
+
+.down-side{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 100%;
+    display: flex;
+}
+
+.side-a{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.summary{
+
+}
+
+.summary-para{
+    margin: 0;
+    padding: 10px;
+
+}
+
+hr{
+    width: 80%;
+    margin-top: 5px;
+}
+
+.projects{
+    /* height: 20vh; */
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.project-1{
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+    padding: 15px;
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #00adef; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+
+
+
+.side-b{
+    /* border: 1px solid red; */
+    width: 22%;
+    /* height: 100%; */
+    background-color: #f3f3f5;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+li{
+    text-transform: capitalize;
+}
+
+.sec-1, .sec-2, .sec-3{
+    /* border: 1px solid green; */
+    width: 99%;
+    /* height: 30%; */
+}
+
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    /* margin-left: 15px; */
+    /* border: 1px solid red; */
+    width: 99%;
+}
+
+.detailsing{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.pppp{
+    /* border: 1px solid green; */
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+h4{
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.company-p{
+    margin: 0;
+    opacity: 70%;
+}
+
+.experience{
+    /* border: 1px solid red; */
+}
+/* 
+.work-place{
+    border: 1px solid red;
+    width: 100%;
+
+} */
+
+.proj-link{
+    color: blue;
+    margin: 3px;
+}

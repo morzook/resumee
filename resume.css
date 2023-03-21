@@ -76,7 +76,10 @@ body{
 }
 
 h2{
+    border: 1px solid red;
     display: inline-block;
+    width: 90%;
+
     /* width: 90%; */
   /* font-size: 32px; */
   transform: scale(1.4, 2);
@@ -84,7 +87,7 @@ h2{
 }
 
 .title{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 90%;
     margin-top: -12px;
     /* margin-left: -25px ; */
